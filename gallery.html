@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Cody Foley Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Cody Foley Portfolio</h1>
+        <p>IT | Networking | Security | Web Development</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <h2>Project Gallery</h2>
+            <p>
+                This gallery highlights screenshots and images from my portfolio projects,
+                including NetworkBuddy, database work, and cybersecurity lab activities.
+            </p>
+        </section>
+
+        <section class="hero">
+            <h2>Slideshow Gallery</h2>
+
+            <div class="gallery">
+                <div class="main-container">
+                    <button class="nav-button left" onclick="previousImage()">&#10094;</button>
+
+                    <img id="mainImage" src="images/networkbuddy1.jpg" alt="Large image">
+
+                    <button class="nav-button right" onclick="nextImage()">&#10095;</button>
+                </div>
+
+                <p id="description">NetworkBuddy hardware setup</p>
+
+                <div class="thumbnails">
+    			<img src="images/networkbuddy1.jpg" alt="NetworkBuddy hardware" onclick="changeImageByIndex(0)" data-desc="NetworkBuddy hardware setup">
+    			<img src="images/networkbuddy2.jpg" alt="NetworkBuddy screen" onclick="changeImageByIndex(1)" data-desc="NetworkBuddy touchscreen and system setup">
+			<img src="images/networkbuddygreen.jfif" alt="NetworkBuddy green dashboard" onclick="changeImageByIndex(4)" data-desc="NetworkBuddy dashboard with green status theme">
+    			<img src="images/networkbuddyred.jfif" alt="NetworkBuddy red dashboard" onclick="changeImageByIndex(5)" data-desc="NetworkBuddy dashboard with red alert status">
+    			<img src="images/databaseproject.jpg" alt="Database project" onclick="changeImageByIndex(2)" data-desc="Database-driven web project for a pharmacy">
+    			<img src="images/kaliandmetaonvb.jpg" alt="Kali and Metasploitable lab" onclick="changeImageByIndex(3)" data-desc="Kali Linux and Metasploitable virtual lab environment for ethical hacking">	
+</div>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Cody Foley. All rights reserved.</p>
+    </footer>
+
+    <script src="js/gallery.js"></script>
+</body>
+</html>

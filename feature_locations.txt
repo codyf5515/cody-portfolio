@@ -1,0 +1,74 @@
+Cody Foley Portfolio Website
+CSET 3250 / CSET 3100 Feature Locations
+
+1. Central Theme
+The website is a personal IT / Networking / Security portfolio and this theme is used consistently across all pages.
+
+2. 6–8 Pages
+index.html
+about.html
+projects.html
+skills.html
+gallery.html
+resume.html
+contact.html
+
+3. Common CSS Box Model Layout / External Stylesheet
+css/style.css is used across all pages for a consistent look and feel.
+
+4. Consistent Navigation Bar
+Navigation bar appears on all pages:
+index.html
+about.html
+projects.html
+skills.html
+gallery.html
+resume.html
+contact.html
+
+5. Form with Multiple Controls
+contact.html
+
+6. CGI Script / Form Processing
+contact.html
+(Use this line only if you actually included the CGI/form processing required by your class.)
+
+7. JavaScript Interactivity
+projects.html - accordion
+gallery.html - slideshow gallery
+skills.html - canvas pie chart
+
+8. Two Floating Boxes
+index.html and projects.html use card-style content boxes.
+
+9. Minimum of Three Images
+gallery.html uses multiple project screenshots and images.
+
+10. Small or Embedded Multimedia Clip
+resume.html
+(Use this line only if you included the required multimedia clip.)
+
+11. Website Content Appropriate
+All pages
+
+12. Correct Spelling / Grammar / No Broken Links
+All pages reviewed before submission
+
+CSET 3250 Requirements
+
+1. JavaScript Canvas Drawing
+skills.html
+
+2. JavaScript Slideshow Gallery
+gallery.html
+
+3. Accordion / Collapsible / Tabs
+projects.html - accordion
+
+4. JavaScript Modal Image
+gallery.html
+(Use this only if you actually included modal image behavior. If not, remove this line.)
+
+5. JavaScript Form Applications
+contact.html
+(List the exact two features you used there, if applicable.)

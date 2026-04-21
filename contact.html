@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Cody Foley Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Cody Foley Portfolio</h1>
+        <p>IT | Networking | Security | Web Development</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <h2>Contact Me</h2>
+            <p>
+                Use the form below to send your information and indicate what you would
+                like to discuss. This page includes form controls and JavaScript
+                interactivity as part of the portfolio project.
+            </p>
+        </section>
+
+        <section class="hero">
+            <h2>Contact Form</h2>
+
+            <form id="contactForm">
+                <fieldset>
+                    <legend>Personal Information</legend>
+
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" placeholder="Enter your full name">
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+
+                    <label for="contactDate">Preferred Contact Date</label>
+                    <input type="date" id="contactDate" name="contactDate">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Reason for Contact</legend>
+
+                    <label for="reason">Reason for Contact</label>
+                    <select id="reason" name="reason">
+                        <option value="">-- Select One --</option>
+                        <option value="job">Job Opportunity</option>
+                        <option value="internship">Internship</option>
+                        <option value="project">Project Discussion</option>
+                        <option value="networking">Professional Networking</option>
+                        <option value="other">Other</option>
+                    </select>
+
+                    <p>Preferred Contact Method</p>
+                    <label><input type="radio" name="contactMethod" value="email"> Email</label>
+                    <label><input type="radio" name="contactMethod" value="phone"> Phone</label>
+
+                    <p>Areas of Interest</p>
+                    <label><input type="checkbox" name="interest" value="databases"> Databases</label>
+                    <label><input type="checkbox" name="interest" value="webdev"> Web Development</label>
+                    <label><input type="checkbox" name="interest" value="security"> Security</label>
+                    <label><input type="checkbox" name="interest" value="networking"> Networking</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Message</legend>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" maxlength="250" placeholder="Enter your message here"></textarea>
+                    <p id="charCount">Characters: 0 / 250</p>
+                </fieldset>
+
+                <div class="form-buttons">
+                    <button type="submit">Submit</button>
+                    <button type="reset" id="resetBtn">Reset</button>
+                </div>
+
+                <p id="formMessage"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Cody Foley. All rights reserved.</p>
+    </footer>
+
+    <script src="js/contact.js"></script>
+</body>
+</html>
