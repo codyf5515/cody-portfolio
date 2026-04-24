@@ -490,3 +490,23 @@ input[type="checkbox"] {
     font-weight: bold;
     cursor: pointer;
 }
+
+
+/* Fix overflow issue */
+* {
+    box-sizing: border-box;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+fieldset {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
